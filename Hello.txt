@@ -1,0 +1,25 @@
+======================================= This is a brief documentation of this project =============================================
+
+1. It's a website for a school Dehri Destiny School, located in Rohtas district of state Bihar, India.
+2. Making of this web site consists of Designing as well as Development.
+
+
+=========
+Designing
+=========
+
+Resource: Priyanka Chaudhary
+---------
+
+Tools & Technologies Used: HTML5, CSS3, Bootstrap4, Javascript
+--------------------------
+
+===========
+Development
+===========
+
+Resource: Rishab Singh
+---------
+
+Tools & Technologies Used: Node.js, React.js, MongoDB
+--------------------------
