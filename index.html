@@ -10,11 +10,14 @@
   <link href="css/aos.css" rel="stylesheet">
   <link href="css/font.css" rel="stylesheet">
   <!-- For Carousel -->
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- ========================================= Header Start ========================================= -->
 <header class="fixed-top">
-<div class="container">
+<div class="container-fluid">
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <a class="navbar-brand" href="#"><img src="assets/images/svg/logo.svg" class="logo"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,25 +26,31 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#about-us">About Us</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link" href="#portfolio">Gallery</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#events">Events</a>
+      </li>
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#">Term & Condition</a>
       </li>
        <li class="nav-item">
         <a class="nav-link" href="#">Admission</a>
-      </li>
+      </li> -->
        <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
+        <a class="nav-link" href="#contact">Contact Us</a>
       </li>
     </ul>
+     <form class="form-inline ml-5">
+      <button class="btn btn-warning" type="button">My School</button>
+    </form>
   </div>
 </nav>
 </div>
@@ -125,12 +134,10 @@
     <div class="row content align-items-center">
       <div class="col-lg-6" data-aos="fade-right">
         <h2 class="mb-3">About Us</h2>
-        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+        <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto. Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut</p>
         <button class="btn btn-warning">More</button>
       </div>
-      <div class="col-lg-6 pt-4 pt-lg-0 text-center" data-aos="fade-left">
+      <div class="col-lg-6 text-center" data-aos="fade-left">
         <div class="about-img">
           <img src="assets/images/about.png">
         </div>
@@ -145,33 +152,33 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title text-center">
-          <p>WELCOME TO DEHRI DISTENY SCHOOL</p>
+          <p>WELCOME TO DEHRI DESTINY SCHOOL</p>
           <h2>OUR CURRICULUM</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-3 col-md-6 mb-3">
             <div class="icon-box">
-              <img src="assets/images/language.png" alt="currculam">
-              <h3><a href="">Lorem Ipsum</a></h3>
+              <img src="assets/images/svg/subject.svg" alt="currculam">
+              <h3>Subjects</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-3">
             <div class="icon-box">
-              <img src="assets/images/language.png" alt="currculam">
-              <h3><a href="">Dolor Sitema</a></h3>
+              <img src="assets/images/svg/labs.svg" alt="currculam">
+              <h3>Labs</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-3">
             <div class="icon-box">
-              <img src="assets/images/language.png" alt="currculam">
-              <h3><a href="">Sed perspiciatis</a></h3>
+              <img src="assets/images/svg/music.svg" alt="currculam">
+              <h3>Music</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 mb-3">
             <div class="icon-box">
-              <img src="assets/images/language.png" alt="currculam">
-              <h3><a href="">Magni Dolores</a></h3>
+              <img src="assets/images/svg/sports.svg" alt="currculam">
+              <h3>Sports</h3>
             </div>
           </div>
         </div>
@@ -182,9 +189,9 @@
     <section id="events" class="events section-bg pt-5 pb-5">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our Event</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+       <div class="section-title text-center">
+          <p>CO-CURRICULAR ACTIVITIES IN SCHOOL</p>
+          <h2>OUR EVENTS</h2>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
@@ -260,10 +267,10 @@
     <section id="testimonials" class="testimonials">
       <div class="testimonials-wrap">
   <div class="container">
-      <div class="section-title">
-            <p>Testimonials</p>
-            <h2>Happy Parents & Feedbacks</h2>
-          </div>
+     <div class="section-title text-center">
+          <p>HAPPY PARENTS HAVE THEIR SAY</p>
+          <h2>REVIEWS & FEEDBACK</h2>
+        </div>
         <div class="carousel-testimonial owl-carousel">
             <div class="item">
                 <div class="testimonial-box d-flex">
@@ -401,8 +408,9 @@
     <section id="portfolio" class="portfolio pt-5 pb-5">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Gallery</h2>
+       <div class="section-title text-center">
+          <p>A FEW MEMORIES WE CHERISH</p>
+          <h2>GALLERY</h2>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -462,8 +470,11 @@
     <!-- ========================================= Contact Us Start ========================================= -->
      <section id="contact" class="contact pt-5 pb-5">
       <div class="container pd-0">
-
-        <div class="row mt-5">
+        <div class="section-title text-center">
+          <p class="text-white">IN CASE YOU HAVE SOME QUERIES</p>
+          <h2 class="text-warning">CONTACT US</h2>
+        </div>
+        <div class="row">
           <div class="offset-md-2 col-lg-8" data-aos="fade-left">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
@@ -553,9 +564,32 @@
 <script src="js/isotope.pkgd.min.js"></script>
 <!-- Form Validate -->
 <script src="js/validate.js"></script>
-
+<script src="js/font-awesome5.js"></script>
 <script src="js/aos.js"></script>
+<!-- Testimonial Section -->
+<script src="js/owl.carousel.min.js"></script>
 <script type="text/javascript">
+   // Testimonial js
+  $('.carousel-testimonial').owlCarousel({
+    loop:true,
+    margin:0,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+})
   // Initi AOS
   function aos_init() {
     AOS.init({

@@ -85,6 +85,7 @@ h1, h2, h3, h4 {
 p {
   font-family: "raleway", sans-serif;
   letter-spacing: 1.5px;
+  font-size: 18px;
 }
 
 body {
@@ -123,12 +124,16 @@ body {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 .mainHeading {
   font-size: 40px;
   font-weight: 700;
+}
+
+.text-warning {
+  color: yellow !important;
 }
 
 header {
@@ -267,7 +272,7 @@ header .navbar-light .navbar-nav .show > .nav-link {
 .curriculam .icon-box:hover {
   background-color: #f73c3c;
 }
-.curriculam .icon-box:hover h3 a {
+.curriculam .icon-box:hover h3 {
   color: #fff;
 }
 .curriculam .icon-box img {
@@ -329,8 +334,9 @@ header .navbar-light .navbar-nav .show > .nav-link {
   line-height: 40px;
 }
 .events .member .memberText h4 {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
+  text-align: left;
 }
 .events .member .member-info {
   padding: 15px 10px;
@@ -348,11 +354,10 @@ header .navbar-light .navbar-nav .show > .nav-link {
   color: #f73c3c;
 }
 .events .member .member-info p {
-  font-size: 14px;
   line-height: 26px;
   text-align: left;
-  font-style: italic;
   color: #000;
+  font-size: 16px;
 }
 .events .boy {
   position: absolute;

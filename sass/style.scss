@@ -2,24 +2,25 @@
 @import "mixin.scss";
 @import "responsive.scss";
 
-@font-face{
+@font-face {
   src: url(assets/font/Montserrat_2/Montserrat-Bold.ttf);
     font-family: 'Montserrat', sans-serif;
 }
-@font-face{
+@font-face {
   src: url(assets/font/Open_Sans/OpenSans-Regular.ttf);
     font-family: 'Open Sans', sans-serif;
 }
 // ================================ Section Genral =====================================
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
 font-family: 'Montserrat', sans-serif;
 letter-spacing: 2px;
 }
 p{
    font-family: 'raleway', sans-serif;
    letter-spacing: 1.5px;
+   font-size: 18px;
 }
-body{
+body {
 	margin:0;
   padding:0;
 }
@@ -54,14 +55,16 @@ body{
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
-.mainHeading{
+.mainHeading {
 	font-size: 40px;
 	font-weight: 700;
 	}
-
+.text-warning {
+  color: yellow!important;
+}
 // ================================ Header start =====================================
 header{
 	background: #fff;
@@ -184,7 +187,7 @@ header{
   				 padding: 10px 0 0 28px;
   				position: relative;
   			}
-  			i{
+  			i {
   				left: 0;
 			  top: 7px;
 			  position: absolute;
@@ -192,14 +195,14 @@ header{
 			  color: #1bbd36;
   			}
 		}
-		img{
+		img {
 			width: 300px;
 		}
 	}
 }
 // ================================ Curriculam =====================================
-.curriculam{
-	.icon-box{
+.curriculam {
+	.icon-box {
 		 display: block;
     text-align: center;
     padding: 40px 20px;
@@ -207,18 +210,16 @@ header{
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     transition: ease-in-out 0.3s;
     border-radius: 16px;
-    &:hover{
+    &:hover {
 		background-color: #f73c3c;
-		h3{
-			a{
-				color: #fff;
-			}
+		h3 {
+			color: #fff;
 		}
 	}
-	img{
+	img {
 		width: 50px;
 	}
-	h3{
+	h3 {
 		font-weight: normal;
 	  margin: 0;
 	  padding: 0;
@@ -276,8 +277,9 @@ header{
     background: #FDE831;
     line-height: 40px;
     h4{
-    	font-size: 18px;
-    	margin: 0;
+    	font-size: 16px;
+    margin: 0;
+    text-align: left;
 		}
     }
     .member-info {
@@ -295,11 +297,10 @@ span {
   color: #f73c3c;
 }
  p {
-  font-size: 14px;
     line-height: 26px;
     text-align: left;
-    font-style: italic;
     color: #000;
+    font-size: 16px;
 }
 }
 	}
