@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+  .social-links {
+    padding: 0 48px 0 0;
+    border-left: 0;
+  }
+  .banner-img-container, .about-img, .boy, .boy2{
+  	display: none;
+  }
+  .girlImg {
+    position: absolute!important;
+    width: 160px!important;;
+    bottom: 0!important;;
+    left: -124px!important;;
+}
+#carouselExampleControls .carousel-inner .main-banner .slider-content{
+	left: 185px!important;
+}
+}
+@media (max-width: 425px) {
+#carouselExampleControls .carousel-inner .main-banner .slider-content {
+    position: absolute!important;
+    top: 130px!important;
+    left: 39px!important;
+    text-align: center!important;
+	width: 370px !important;
+}
+#carouselExampleControls .carousel-inner .main-banner{
+	min-height: 410px!important;
+}
+#carouselExampleControls .carousel-inner {
+    padding-top: 0!important;
+}
+#carouselExampleControls .carousel-inner .main-banner .slider-content h2{
+	font-size: 35px!important;
+}
+.girlImg{
+	display: none;
+}
+.social-links{
+	padding:0;
+}
+.socialLink a{
+	margin-left: 0 !important;
+    line-height: 78px!important;
+    width: 90px!important;
+    height: 90px!important;
+}
+.socialLink a i{
+	font-size: 35px!important;
+}
+}
+@media (max-width: 1024px){
+.boy2{
+	display: none;
+}
+}
+@media (min-width: 1980px) {
+.boy2{
+	left: 308px!important;
+}
+}
