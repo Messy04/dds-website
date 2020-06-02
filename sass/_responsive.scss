@@ -15,6 +15,12 @@
 #carouselExampleControls .carousel-inner .main-banner .slider-content{
 	left: 185px!important;
 }
+.principal-section-img, .chairman-section-img{
+  width: 100%!important;
+}
+#about-main .about-content .about-detail .school-image {
+    width: 100%!important;
+    min-height: 129px!important;}
 }
 @media (max-width: 425px) {
 #carouselExampleControls .carousel-inner .main-banner .slider-content {
