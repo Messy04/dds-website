@@ -1000,3 +1000,105 @@ position: absolute;
     transform: rotate(180deg);
         }
         }
+
+// ================================ News page Start =====================================
+#news-main {
+  background-image:url(../assets/images/1.jpg);
+  background-size:cover;
+  background-position:center;
+  .news-content {
+    .news-detail {
+      .news-section-img{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    min-height: 285px;
+    background-color:#fff;
+    padding:15px;
+    border: 1px dashed #0b33a8;
+    .date{
+      background-color: #FFA000;
+    margin-top: 6px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 8px #ffa000;
+    border-radius: 4px;
+      p{
+        margin-bottom: 0;
+        color: #fff;
+        font-weight: 600;
+      }
+    }
+    .event{
+      margin-left: 10px;
+    }
+    h3{
+      font-size: 20px;
+    margin-top: 15px;
+    color: #0b31a6;
+    }
+    p{
+      span{
+        i{
+          color: #f5b800;
+        }
+      }
+    }
+    img{ 
+      width: 100%;
+    }
+      }
+     
+    }
+  }
+}
+.badge {
+  position: absolute;
+    left: 15px;
+    border-radius: 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.badge-gradient1 {
+ background-color: #6c17ff;
+  } 
+  .badge-gradient2 {
+  background-color:#59d540;
+  }   
+  .badge-gradient3 {
+  background-color:#bc0d9a;
+  }  
+  // Modal Box
+.modal{
+  .modal-dialog{
+    .modal-content{
+      .modal-header{
+        background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+        background:#921e46;
+        background: -webkit-linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+        background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+        color: #fff;
+        .close {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: red;
+    width: 30px;
+    color: #fff;
+    height: 30px;
+    border-radius: 100px;
+    text-align: center;
+    opacity: 1;
+}
+.modal-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+      }
+    }
+  }
+}
