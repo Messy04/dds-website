@@ -67,6 +67,14 @@
   .socialLink a i {
     font-size: 35px !important;
   }
+
+  header .logo {
+    max-height: 28px !important;
+  }
+
+  .form-inline {
+    margin-left: 0px !important;
+  }
 }
 @media (max-width: 1024px) {
   .boy2 {
@@ -980,6 +988,7 @@ header .navbar-light .navbar-nav .show > .nav-link {
   transform: rotate(180deg);
 }
 
+<<<<<<< HEAD
 #gallery-main {
   background-image: url(../assets/images/sativa.webp);
   background-size: 280px;
@@ -1016,6 +1025,94 @@ header .navbar-light .navbar-nav .show > .nav-link {
 #gallery-main .gallery .portfolio-item img {
   border: 5px solid #ffc107;
   box-shadow: 3px 3px 7px 1px #ffdb6f;
+}
+#news-main {
+  background-image: url(../assets/images/1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#news-main .news-content .news-detail .news-section-img {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  min-height: 285px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px dashed #0b33a8;
+}
+#news-main .news-content .news-detail .news-section-img .date {
+  background-color: #FFA000;
+  margin-top: 6px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 1px 1px 8px #ffa000;
+  border-radius: 4px;
+}
+#news-main .news-content .news-detail .news-section-img .date p {
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 600;
+}
+#news-main .news-content .news-detail .news-section-img .event {
+  margin-left: 10px;
+}
+#news-main .news-content .news-detail .news-section-img h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #0b31a6;
+}
+#news-main .news-content .news-detail .news-section-img p span i {
+  color: #f5b800;
+}
+#news-main .news-content .news-detail .news-section-img img {
+  width: 100%;
+}
+
+.badge {
+  position: absolute;
+  left: 15px;
+  border-radius: 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.badge-gradient1 {
+  background-color: #6c17ff;
+}
+
+.badge-gradient2 {
+  background-color: #59d540;
+}
+
+.badge-gradient3 {
+  background-color: #bc0d9a;
+}
+
+.modal .modal-dialog .modal-content .modal-header {
+  background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+  background: #921e46;
+  background: -webkit-linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+  background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+  color: #fff;
+}
+.modal .modal-dialog .modal-content .modal-header .close {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: red;
+  width: 30px;
+  color: #fff;
+  height: 30px;
+  border-radius: 100px;
+  text-align: center;
+  opacity: 1;
+}
+.modal .modal-dialog .modal-content .modal-header .modal-title {
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 /*# sourceMappingURL=style.css.map */
