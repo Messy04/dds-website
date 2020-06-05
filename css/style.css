@@ -542,7 +542,7 @@ header .navbar-light .navbar-nav .show > .nav-link {
 
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
 }
@@ -978,6 +978,44 @@ header .navbar-light .navbar-nav .show > .nav-link {
   border-color: transparent transparent transparent #fff;
   border-left-color: #f73c3c4a;
   transform: rotate(180deg);
+}
+
+#gallery-main {
+  background-image: url(../assets/images/sativa.webp);
+  background-size: 280px;
+  background-repeat-x: repeat;
+}
+#gallery-main .gallery ul#portfolio-flters {
+  background-color: #2d50a9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 1px 5px 4px #b2c8ff;
+}
+#gallery-main .gallery ul#portfolio-flters li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 5s ease;
+  -moz-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  transition: all 0.5s ease;
+  font-weight: 600;
+  color: #fff;
+}
+#gallery-main .gallery ul#portfolio-flters li:hover {
+  color: #000;
+  background: #ffc107;
+}
+#gallery-main .gallery ul#portfolio-flters li.filter-active {
+  color: #000;
+  background: #ffc107;
+}
+#gallery-main .gallery .portfolio-item img {
+  border: 5px solid #ffc107;
+  box-shadow: 3px 3px 7px 1px #ffdb6f;
 }
 
 /*# sourceMappingURL=style.css.map */
