@@ -125,7 +125,7 @@ header{
       color: rgb(247, 60, 60);
     }
     &:focus, &:hover {
-    color: rgba(247, 60, 60);
+    color: rgb(247, 60, 60);
   }
   }
 
@@ -200,7 +200,7 @@ header{
 	.content{
 		h2{
 		font-weight: 700;
-		  font-size: 42px;
+		  font-size: 32px;
 		  line-height: 40px;
 		  text-transform: uppercase;
 		  color: yellow;
@@ -1114,10 +1114,10 @@ position: absolute;
   background-color:#bc0d9a;
   }  
   // Modal Box
-.modal{
-  .modal-dialog{
-    .modal-content{
-      .modal-header{
+.modal {
+  .modal-dialog {
+    .modal-content {
+      .modal-header {
         background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
         background:#921e46;
         background: -webkit-linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
@@ -1144,4 +1144,24 @@ position: absolute;
       }
     }
   }
+}
+
+// ================================ Curriculum page Start =====================================
+#curriculum-page {
+  .curriculum-sections {
+    background-color: #f5e0e0;
+    .curriculum-content {
+      padding: 15px;
+    background-color: #fff;
+    border: 1px dashed #ffa0a0;
+    h2{
+     color: #f73c3c;
+    }
+    }
+
+    img {
+      width: 350px;
+    }
+  }
+
 }
