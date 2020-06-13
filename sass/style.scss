@@ -444,12 +444,53 @@
     top: 220px;
     left: 48px;
     z-index: 9;
-  }
-  // ================================ Social Links =====================================
-  .socialLink{
-    background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
-    a {
-      color: #fff;
+}
+// ================================ Social Links =====================================
+.socialLink{
+  background-image: linear-gradient(to right top, #007ab5, #0072c7, #0068d6, #005ae1, #0046e5);
+  a {
+    color: #fff;
+    display: inline-block;
+    line-height: 95px;
+    transition: 0.3s;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 14px solid #FFF;
+    &:hover {
+  color: #fff;
+}
+    i {
+    font-size: 45px;
+}
+
+}
+.twitter{
+  background-image: linear-gradient(to right top, #33CCFF , #337FFF, #33CCFF , #337FFF, #33CCFF);
+}
+.facebook{
+  background-image: linear-gradient(to right top, #3C5A99, #2B1E99, #3C5A99, #2B1E99, #3C5A99);
+}
+.whatsapp{
+  background-image: linear-gradient(to right top, #60FC7C, #4AB161, #60FC7C, #4AB161, #60FC7C);
+}
+.youtube{
+  background-image: linear-gradient(to right top, #FF0000, #850000, #FF0000, #850000, #FF0000);
+}
+}
+// ================================ Gallery =====================================
+.portfolio {
+  #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 25px auto;
+    list-style: none;
+    text-align: center;
+
+    li {
+      cursor: pointer;
       display: inline-block;
       line-height: 95px;
       transition: 0.3s;
@@ -969,6 +1010,77 @@
           border-color: transparent transparent transparent #fff;
           border-left-color: #f73c3c4a;
         }
+
+// Gallery
+#gallery-main{
+  background-image: url(../assets/images/sativa.webp);
+    background-size: 280px;
+    background-repeat-x: repeat;
+.gallery{
+  ul#portfolio-flters{
+    background-color: #2d50a9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px 4px #b2c8ff;
+    li{
+      display:inline-block;
+  margin:0;
+  list-style:none;
+  padding:10px 15px;
+  cursor:pointer;
+  -webkit-transition:all 05s ease;
+  -moz-transition:all 05s ease;
+  -ms-transition:all 05s ease;
+  -o-transition:all 05s ease;
+  transition:all .5s ease;
+  font-weight: 600;
+  color: #fff;
+  &:hover{
+    color: #000;
+    background: #ffc107;
+  }
+  &.filter-active {
+    color: #000;
+    background: #ffc107;
+}
+    }
+  }
+.portfolio-item{
+    img{
+      border: 5px solid #ffc107;
+      box-shadow: 3px 3px 7px 1px #ffdb6f;
+  }
+}
+}
+}
+
+// ================================ News page Start =====================================
+#news-main {
+  background-image:url(../assets/images/1.jpg);
+  background-size:cover;
+  background-position:center;
+  .news-content {
+    .news-detail {
+      .news-section-img{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    min-height: 285px;
+    background-color:#fff;
+    padding:15px;
+    border: 1px dashed #0b33a8;
+    .date{
+      background-color: #FFA000;
+    margin-top: 6px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 8px #ffa000;
+    border-radius: 4px;
+      p{
+        margin-bottom: 0;
+        color: #fff;
+        font-weight: 600;
       }
     }
     .principal-section-img, .chairman-section-img  {
@@ -1189,4 +1301,5 @@
   .contact{
     background-image:none;
   }
+}
 }
