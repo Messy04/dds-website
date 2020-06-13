@@ -116,6 +116,10 @@
     .active > .nav-link {
       color: rgb(247, 60, 60);
     }
+    &:focus, &:hover {
+    color: rgb(247, 60, 60);
+  }
+  }
 
     .nav-link {
     	color: #555;
@@ -191,81 +195,80 @@
     }
 
   }
-  // ================================ About us =====================================
-  .about-us{
-  	// background: linear-gradient(140deg, #F73C3C 66%, #fff 51%);
-  	background-image:url(../assets/images/aboutBg.png);
-  	background-size:cover;
-  	background-repeat:no-repeat;
-  	.content{
-  		h2{
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 40px;
-        text-transform: uppercase;
-        color: yellow;
-      }
-      p{
-        color: #fff;
-      }
-      &:last-child{
-        margin-bottom: 0;
-      }
-      ul{
-        list-style: none;
-        padding: 0;
-        li{
-         padding: 10px 0 0 28px;
-         position: relative;
-       }
-       i {
-        left: 0;
-        top: 7px;
-        position: absolute;
-        font-size: 20px;
-        color: #1bbd36;
-      }
-    }
-    img {
-     width: 300px;
-   }
- }
+// ================================ About us =====================================
+.about-us{
+	// background: linear-gradient(140deg, #F73C3C 66%, #fff 51%);
+	background-image:url(../assets/images/aboutBg.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	.content{
+		h2{
+		font-weight: 700;
+		  font-size: 32px;
+		  line-height: 40px;
+		  text-transform: uppercase;
+		  color: yellow;
+		}
+		p{
+		color: #fff;
+		}
+		&:last-child{
+			 margin-bottom: 0;
+		}
+		ul{
+			 list-style: none;
+  			padding: 0;
+  			li{
+  				 padding: 10px 0 0 28px;
+  				position: relative;
+  			}
+  			i {
+  				left: 0;
+			  top: 7px;
+			  position: absolute;
+			  font-size: 20px;
+			  color: #1bbd36;
+  			}
+		}
+		img {
+			width: 300px;
+		}
+	}
 }
-  // ================================ Curriculam =====================================
-  .curriculam {
-  	.icon-box {
-     display: block;
-     text-align: center;
-     padding: 40px 20px;
-     background: #fff;
-     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-     transition: ease-in-out 0.3s;
-     border-radius: 16px;
-     &:hover {
-      background-color: #f73c3c;
-      h3 {
-       color: #fff;
-     }
-   }
-   img {
-    width: 50px;
-  }
-  h3 {
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-    line-height: 3;
-    font-size: 16px;
-    a{
-      color: #f73c3c;
-      transition: ease-in-out 0.3s;
-      &:hover{
-       color: #1bbd36;
-     }
-   }
- }
-}
-
+// ================================ Curriculam =====================================
+.curriculam {
+	.icon-box {
+		 display: block;
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: ease-in-out 0.3s;
+    border-radius: 16px;
+    &:hover {
+		background-color: #f73c3c;
+		h3 {
+			color: #fff;
+		}
+	}
+	img {
+		width: 50px;
+	}
+	h3 {
+		font-weight: normal;
+	  margin: 0;
+	  padding: 0;
+	  line-height: 3;
+	  font-size: 16px;
+	  a{
+	  	color: #f73c3c;
+  		transition: ease-in-out 0.3s;
+  		&:hover{
+  			  color: #1bbd36;
+  		}
+	  }
+	}
+	}
 }
   // ================================ Our events =====================================
   .events{
@@ -481,47 +484,6 @@
   background-image: linear-gradient(to right top, #FF0000, #850000, #FF0000, #850000, #FF0000);
 }
 }
-// ================================ Gallery =====================================
-.portfolio {
-  #portfolio-flters {
-    padding: 0;
-    margin: 0 auto 25px auto;
-    list-style: none;
-    text-align: center;
-
-    li {
-      cursor: pointer;
-      display: inline-block;
-      line-height: 95px;
-      transition: 0.3s;
-      background-color: #fff;
-      text-align: center;
-      margin-left: 50px;
-      width: 100px;
-      height: 100px;
-      border-radius: 100%;
-      border: 14px solid #FFF;
-      &:hover {
-        color: #fff;
-      }
-      i {
-        font-size: 45px;
-      }
-
-    }
-    .twitter{
-      background-image: linear-gradient(to right top, #33CCFF , #337FFF, #33CCFF , #337FFF, #33CCFF);
-    }
-    .facebook{
-      background-image: linear-gradient(to right top, #3C5A99, #2B1E99, #3C5A99, #2B1E99, #3C5A99);
-    }
-    .whatsapp{
-      background-image: linear-gradient(to right top, #60FC7C, #4AB161, #60FC7C, #4AB161, #60FC7C);
-    }
-    .youtube{
-      background-image: linear-gradient(to right top, #FF0000, #850000, #FF0000, #850000, #FF0000);
-    }
-  }
   // ================================ Gallery =====================================
   .portfolio {
     #portfolio-flters {
@@ -1053,66 +1015,6 @@
 }
 }
 }
-
-// ================================ News page Start =====================================
-#news-main {
-  background-image:url(../assets/images/1.jpg);
-  background-size:cover;
-  background-position:center;
-  .news-content {
-    .news-detail {
-      .news-section-img{
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.24);
-    border-radius: 5px;
-    min-height: 285px;
-    background-color:#fff;
-    padding:15px;
-    border: 1px dashed #0b33a8;
-    .date{
-      background-color: #FFA000;
-    margin-top: 6px;
-    text-align: center;
-    padding: 5px;
-    box-shadow: 1px 1px 8px #ffa000;
-    border-radius: 4px;
-      p{
-        margin-bottom: 0;
-        color: #fff;
-        font-weight: 600;
-      }
-    }
-    .principal-section-img, .chairman-section-img  {
-      width: 60%;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 16px 24px rgba(0, 0, 0, 0.24);
-      border-radius: 5px;
-      min-height: 285px;
-      img{ 
-        width: 100%;
-      }
-    }
-  }
-  .chairman-detail {
-    &:after {
-      position: absolute;
-      top: 50%;
-      left: -24px;
-      margin-top: -17px;
-      content: "";
-      display: block;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-width: 17.5px 0 17.5px 24px;
-      border-color: transparent transparent transparent #fff;
-      border-left-color: #f73c3c4a;
-      transform: rotate(180deg);
-    }
-  }
-
   // ================================ News page Start =====================================
   #news-main {
     background-image:url(../assets/images/1.jpg);
@@ -1157,7 +1059,7 @@
               }
             }
           }
-          img{ 
+          img{
             width: 100%;
           }
         }
@@ -1175,13 +1077,13 @@
 
   .badge-gradient1 {
    background-color: #6c17ff;
- } 
+ }
  .badge-gradient2 {
   background-color:#59d540;
-}   
+}
 .badge-gradient3 {
   background-color:#bc0d9a;
-}  
+}
     // Modal Box
     .modal{
       .modal-dialog{
@@ -1302,4 +1204,24 @@
     background-image:none;
   }
 }
+}
+
+// ================================ Curriculum page Start =====================================
+#curriculum-page {
+  .curriculum-sections {
+    background-color: #f5e0e0;
+    .curriculum-content {
+      padding: 15px;
+    background-color: #fff;
+    border: 1px dashed #ffa0a0;
+    h2{
+     color: #f73c3c;
+    }
+    }
+
+    img {
+      width: 350px;
+    }
+  }
+
 }
