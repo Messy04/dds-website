@@ -921,4 +921,84 @@ header {
   #curriculum-page .curriculum-sections img {
     width: 350px; }
 
+#contact-main {
+  background-image: url(../assets/images/1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#contact-main .contact-content .contact-image .school-image {
+  width: 100%;
+  min-height: 362px;
+  background-color: white;
+  overflow: hidden;
+}
+#contact-main .contact-content .contact-image .school-image img {
+  width: 100%;
+}
+#contact-main .contact-content .contact-wrapper {
+  background-color: #eed1fb;
+  padding: 20px;
+  position: relative;
+  min-height: 435px;
+}
+#contact-main .contact-content .contact-wrapper .contact-detail h2 {
+  font-weight: 700;
+  color: #8a43aa;
+}
+#contact-main .contact-content .contact-wrapper .contact-detail p {
+  font-weight: 500;
+}
+#contact-main .contact-content .contact-wrapper .contact-detail ul {
+  padding: 0;
+}
+#contact-main .contact-content .contact-wrapper .contact-detail ul li {
+  list-style: none;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+#contact-main .contact-content .contact-wrapper .contact-detail ul li i {
+  font-size: 14px;
+  color: #8a43aa;
+}
+#contact-main .contact-content .contact-wrapper .working-hours {
+  background-color: #8a43aa;
+  width: 30%;
+  position: absolute;
+  top: -15px;
+  right: 15px;
+  box-shadow: 2px 3px 7px 0px #db8aff;
+  border-top: 10px solid #ff65cb;
+  border-radius: 8px;
+  min-height: 300px;
+  padding-top: 20px;
+}
+#contact-main .contact-content .contact-wrapper .working-hours h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+}
+#contact-main .contact-content .contact-wrapper .working-hours ul {
+  margin: 0;
+  padding-left: 0;
+}
+#contact-main .contact-content .contact-wrapper .working-hours ul li {
+  border-bottom: 1px solid #d370ff80;
+  padding-top: 10px;
+  list-style: none;
+  padding-left: 15px;
+}
+#contact-main .contact-content .contact-wrapper .working-hours ul li span:first-child {
+  color: yellow;
+}
+#contact-main .contact-content .contact-wrapper .working-hours ul li p {
+  color: #fff;
+}
+#contact-main .contact-content .contact-wrapper .working-hours ul li:last-child {
+  border-bottom: none;
+}
+
+#contact-page .contact {
+  background-image: none;
+}
+
 /*# sourceMappingURL=style.css.map */
